@@ -1,4 +1,4 @@
 # MovieAnalysis
 Data Engineering Project
 
-Status: Movies without Box Office. Web Crawl written for IMDB
+Status: Movies with Box Office. Web Crawled using IMDB. Yet to Web Crawl from TMDB
