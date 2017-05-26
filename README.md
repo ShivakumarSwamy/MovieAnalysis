@@ -1,7 +1,13 @@
 # MovieAnalysis
 Data Engineering Project
 
-Status: Movies with Box Office and with Adjusted Box Office (2014). Plotting of Dataset is remaining.
+Status: Dataset Plotted To analyze trends from 1990 to 2014.
+
+Remaining Tasks: 
+1. Setting font size and color of the plotted dataset.
+2. Plotting of whole dataset with respect to rating, movie count, box office.
+3. Plotting of whole dataset season wise.
+
 
 The following are helpful links for project,
 
