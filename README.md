@@ -11,14 +11,14 @@ The following are helpful links for project,
 6. [OMDB API](http://www.omdbapi.com/)
 
 
-PROJECT IMPLEMENTATION STEPS:
+**PROJECT IMPLEMENTATION STEPS:**
 
 1. Run the filteringDataset.ipynb to filter the dataset and remove duplicate ID’s. After executing we get 
 datasetWithoutBoxOffice.csv
 
 2. Run extractBoxOffice.ipynb copies to extract box office using WebCrawl class present in webcrawl.py. After executing the latter file we get datasetWithBoxOffice.csv
 
-Optional(but suggested): We have made 10 copies of extractBoxOffice.ipynb with 1000 entries each, and then using mergeCSV.ipynb we have merged all the csv's to get datasetWithBoxOffice.csv.
+**Optional(but suggested):** We have made 10 copies of extractBoxOffice.ipynb with 1000 entries each, and then using mergeCSV.ipynb we have merged all the csv's to get datasetWithBoxOffice.csv.
 
 3. Run extractTicketInflationPrice.ipynb to extract table of ticket inflation price by year. After executing we get ticketPriceInflation.csv 
 
