@@ -25,7 +25,7 @@ class WebCrawl:
                         self.boxOfficeResult = boxofficeIMDB
             else:
                 print ('WARNING......')
-                print ('WRONG ID: ' + imdbid)
+                print ('WRONG IMDB ID: ' + imdbid)
                         
         except requests.exceptions.RequestException:
             print ('URL ERROR')
@@ -51,7 +51,7 @@ class WebCrawl:
                         self.boxOfficeResult = boxofficeTMDB
             else:
                 print ('WARNING......')
-                print ('WRONG ID: ' + tmdbid)
+                print ('WRONG TMDB ID: ' + tmdbid)
                 
         except requests.exceptions.RequestException:
             print ('URL ERROR')
