@@ -10,10 +10,6 @@ The following are helpful links for project,
 5. [Dataset](https://grouplens.org/datasets/movielens/)
 6. [OMDB API](http://www.omdbapi.com/)
 
-DATASET 1:  dataset01.csv
-
-DATASET 2:  dataset02.csv
-
 
 PROJECT IMPLEMENTATION STEPS:
 
