@@ -1,12 +1,6 @@
 # MovieAnalysis
 Data Engineering Project
 
-Status: Dataset Plotted To analyze trends from 1990 to 2014.
-
-Remaining Tasks: 
-1. Setting font size and color of the plotted dataset.
-
-
 The following are helpful links for project,
 
 1. [Pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
@@ -15,3 +9,25 @@ The following are helpful links for project,
 4. [plotly](https://plot.ly/python/)
 5. [Dataset](https://grouplens.org/datasets/movielens/)
 6. [OMDB API](http://www.omdbapi.com/)
+
+DATASET 1:  dataset01.csv
+
+DATASET 2:  dataset02.csv
+
+
+PROJECT IMPLEMENTATION STEPS:
+
+1. Run the filteringDataset.ipynb to filter the dataset and remove duplicate ID’s. After executing we get 
+datasetWithoutBoxOffice.csv
+
+2. Run extractBoxOffice.ipynb copies to extract box office using WebCrawl class present in webcrawl.py. After executing the latter file we get datasetWithBoxOffice.csv
+
+Optional(but suggested): We have made 10 copies of extractBoxOffice.ipynb with 1000 entries each, and then using mergeCSV.ipynb we have merged all the csv's to get datasetWithBoxOffice.csv.
+
+3. Run extractTicketInflationPrice.ipynb to extract table of ticket inflation price by year. After executing we get ticketPriceInflation.csv 
+
+4. Run adjustTicketPriceInflation.ipynb. After executing we get finalDataset.csv
+
+5. Run plotDataset1.ipynb, plotDataset2.ipynb to visualise the dataset.
+
+[For Windows when converting to csv use encoding as UTF-8]
