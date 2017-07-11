@@ -1,5 +1,4 @@
 # MovieAnalysis
-Data Engineering Project
 
 The following are helpful links for project,
 
@@ -11,20 +10,26 @@ The following are helpful links for project,
 6. [OMDB API](http://www.omdbapi.com/)
 7. [Markdown Quick Tutorial](http://commonmark.org/help/)
 
+## Pleases don't use the dataset for commercial purpose.
+
 
 **PROJECT IMPLEMENTATION STEPS:**
 
 1. Run the `filteringDataset.ipynb` to filter the dataset and remove duplicate ID’s. After executing we get 
-datasetWithoutBoxOffice.csv
+`datasetWithoutBoxOffice.csv`
 
-2. Run extractBoxOffice.ipynb copies to extract box office using WebCrawl class present in webcrawl.py. After executing the we get datasetWithBoxOffice.csv
+2. Run `extractBoxOffice.ipynb` to extract box office using WebCrawl class present in `webcrawl.py`. After executing we get `datasetWithBoxOffice.csv`
 
-**Optional(but suggested):** We have made 10 copies of extractBoxOffice.ipynb with 1000 entries each, and then using mergeCSV.ipynb we have merged all the csv's to get datasetWithBoxOffice.csv.
+**Optional(but suggested):** We have made 10 copies of `extractBoxOffice.ipynb` with 1000 entries each, and then using `mergeCSV.ipynb` we have merged all the csv's to get `datasetWithBoxOffice.csv`.
 
-3. Run extractTicketInflationPrice.ipynb to extract table of ticket inflation price by year. After executing we get ticketPriceInflation.csv 
+> Alternatively, you can run `extractBoxOfficeAllEntries.ipynb` to extract box office for all entries, but consumes lot of time (in hrs)
 
-4. Run adjustTicketPriceInflation.ipynb. After executing we get finalDataset.csv
+3. Run `extractTicketInflationPrice.ipynb` to extract table of ticket inflation price by year. After executing we get `ticketPriceInflation.csv` 
 
-5. Run plotDataset1.ipynb, plotDataset2.ipynb to visualise the dataset.
+4. Run `adjustTicketPriceInflation.ipynb`. After executing we get `finalDataset.csv`
 
-[For Windows when converting to csv use encoding as UTF-8]
+5. Run `plotDataset1.ipynb`, `plotDataset2.ipynb` to visualise the dataset.
+
+**For Windows when converting to csv use encoding as UTF-8**
+
+
