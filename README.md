@@ -7,13 +7,14 @@ The following are helpful links for project,
 2. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 3. [Requests](http://docs.python-requests.org/en/master/)
 4. [plotly](https://plot.ly/python/)
-5. [Dataset](https://grouplens.org/datasets/movielens/)
+5. [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 6. [OMDB API](http://www.omdbapi.com/)
+7. [Markdown Quick Tutorial](http://commonmark.org/help/)
 
 
 **PROJECT IMPLEMENTATION STEPS:**
 
-1. Run the filteringDataset.ipynb to filter the dataset and remove duplicate ID’s. After executing we get 
+1. Run the `filteringDataset.ipynb` to filter the dataset and remove duplicate ID’s. After executing we get 
 datasetWithoutBoxOffice.csv
 
 2. Run extractBoxOffice.ipynb copies to extract box office using WebCrawl class present in webcrawl.py. After executing the we get datasetWithBoxOffice.csv
