@@ -12,8 +12,9 @@ The following are helpful links for project,
 
 ## Pleases don't use the dataset for commercial purpose.
 
+We have filtered the dataset for year 1990-2014, country as USA, language as English
 
-**PROJECT IMPLEMENTATION STEPS:**
+## PROJECT IMPLEMENTATION STEPS:
 
 1. Run the `filteringDataset.ipynb` to filter the dataset and remove duplicate ID’s. After executing we get 
 `datasetWithoutBoxOffice.csv`
