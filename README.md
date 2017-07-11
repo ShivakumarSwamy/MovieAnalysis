@@ -14,7 +14,8 @@ The following are helpful links for project,
 
 We have filtered the dataset for year 1990-2014, country as USA, language as English
 
-## PROJECT IMPLEMENTATION STEPS:
+
+## Project Implementation Steps:
 
 1. Run the `filteringDataset.ipynb` to filter the dataset and remove duplicate ID’s. After executing we get 
 `datasetWithoutBoxOffice.csv`
