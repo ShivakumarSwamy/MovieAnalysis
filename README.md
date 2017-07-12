@@ -12,7 +12,8 @@ The following links are helpful for the project,
 
 The `dataset01.csv` and `dataset02.csv` consists of 27000 entries.
 
-For project, we have filtered the dataset for year 1990-2014, country as USA, language as English for which we get 10060 entries.
+For project, we have filtered the dataset for year 1990-2014, country as USA, language as English for which we get 
+10060 entries.
 
 
 ## Project Implementation Steps:
