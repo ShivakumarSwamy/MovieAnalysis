@@ -10,9 +10,9 @@ The following are helpful links for project,
 6. [OMDB API](http://www.omdbapi.com/)
 7. [Markdown Quick Tutorial](http://commonmark.org/help/)
 
-## Pleases don't use the dataset for commercial purpose.
+The `dataset01.csv` and `dataset02.csv` consists of 27000 entries.
 
-We have filtered the dataset for year 1990-2014, country as USA, language as English
+For project, we have filtered the dataset for year 1990-2014, country as USA, language as English
 
 
 ## Project Implementation Steps:
