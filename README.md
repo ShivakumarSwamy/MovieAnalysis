@@ -35,4 +35,12 @@ For project, we have filtered the dataset for year 1990-2014, country as USA, la
 
 **For Windows when converting to csv use encoding as UTF-8.**
 
+Snapshot of Dataset
+
+![](https://github.com/ShivakumarSwamy/MovieAnalysis/blob/master/SnapshotFinalDataset.jpg)
+
+One of the plot of dataset
+
+![](https://github.com/ShivakumarSwamy/MovieAnalysis/blob/master/MoviePlot.gif)
+
 
