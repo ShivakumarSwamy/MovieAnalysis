@@ -39,10 +39,10 @@ For project, we have filtered the dataset for year 1990-2014, country as USA, la
 
 * Snapshot of Final dataset 
 
-![](https://github.com/ShivakumarSwamy/MovieAnalysis/blob/master/SnapshotFinalDataset.jpg)
+![](SnapshotFinalDataset.jpg)
 
 * One of the plot of dataset 
 
-![](https://github.com/ShivakumarSwamy/MovieAnalysis/blob/master/MovieAnalysisPlot.gif)
+![](MovieAnalysisPlot.gif)
 
 
